@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tarea3_1</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="salir">Salir</string>
+    <string name="dificultasText">Dificultad Elegida</string>
+    <string name="dificultad">Medio</string>
+    <string name="baseDATOS">Base de Datos</string>
+    <string name="interna">Interna SQLite</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Juego</string>
+    <string name="sync_header">Tipo de BD</string>
+
+    <!-- Messages Preferences -->
+    <string name="categoria">Dificultad elegida</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Tipo de BD</string>
+    <string name="attachment_title">Base de datos</string>
+    <string name="attachment_summary_on">Externa MySQL, MariaDB
+    </string>
+    <string name="attachment_summary_off">Interna SQ Lite</string>
+    <string name="tituloEdicion">Servidor Externo</string>
+    <string name="nombre">Nombre de la BD</string>
+    <string name="ipServidor">IP del Servidor</string>
+</resources>

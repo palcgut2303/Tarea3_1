@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <ListPreference
+            app:key="categoria"
+            app:title="@string/categoria"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/baseline_all_inbox_24"
+            app:key="tipoBaseDatos"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" />
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/tituloEdicion">
+        <EditTextPreference
+            app:defaultValue="@string/nombre"
+            app:dependency="tipoBaseDatos"
+            app:icon="@drawable/baseline_edit_24"
+            app:key="nombre"
+            app:summary="@string/nombre"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="@string/ipServidor"
+            app:dependency="tipoBaseDatos"
+            app:icon="@drawable/baseline_wifi_tethering_24"
+            app:key="ip"
+            app:summary="@string/ipServidor"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
