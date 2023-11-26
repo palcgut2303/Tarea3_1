@@ -48,17 +48,17 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="249dp"
-        android:layout_height="39dp"
+        android:layout_width="271dp"
+        android:layout_height="58dp"
         android:background="#D2C058F8"
         android:gravity="center"
         android:text="@string/interna"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintVertical_bias="0.465" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

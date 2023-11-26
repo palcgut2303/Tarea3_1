@@ -3,10 +3,11 @@
     <PreferenceCategory app:title="@string/messages_header">
 
         <ListPreference
-            app:key="categoria"
-            app:title="@string/categoria"
+            app:defaultValue="Medio"
             app:entries="@array/reply_entries"
             app:entryValues="@array/reply_values"
+            app:key="categoria"
+            app:title="@string/categoria"
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
@@ -14,6 +15,7 @@
     <PreferenceCategory app:title="@string/sync_header">
 
         <SwitchPreferenceCompat
+            app:defaultValue="false"
             app:icon="@drawable/baseline_all_inbox_24"
             app:key="tipoBaseDatos"
             app:summaryOff="@string/attachment_summary_off"
